@@ -22,6 +22,9 @@ Instead of looking under the rug:
 		increase the score by 10;
 		now the player carries the rocket body;
 		say "Under the rug you find a rocket body, which you retrieve."
+		
+Instead of taking the rug:
+	say "the rug is taped to the ground except a little hole that your hand can fit through"
 
 The store cupbard is west of the Rocket base. "A small room used for storing things. There is a shelf against one wall."
 A supporter called a shelf is here.
@@ -40,5 +43,9 @@ After putting the rocket body on the launch pad for the first time:
 After putting the nose cone on the launch pad:
 	if the rocket body is on the launch pad:
 		end the story saying "you click the rocket pieces together and use it to escape!"
+		
+After putting the rocket body on the launch pad:
+	if the nose cone is on the launch pad:
+		end the story saying "you click rocket pices together and escape!"
 		
 	
