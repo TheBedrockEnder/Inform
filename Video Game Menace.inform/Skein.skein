@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Skein rootNode="node-1">
-  <generator>Windows Inform 7 6M62</generator>
-  <activeNode nodeId="node-7"/>
+  <generator>Windows Inform 10.1.2</generator>
   <item nodeId="node-1">
     <command xml:space="preserve">Video Game Menace</command>
     <result xml:space="preserve">Video Game Menace&#x000A;An Interactive Fiction by Martin Brown&#x000A;Release 1 / Serial number 180708 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD&#x000A;&#x000A;Rocket base&#x000A;The Rocket base is a big, circular room. There is a launch pad in the centre of the room. It looks like a rocket was once here but someone has taken it apart and hidden the pieces. There are exits to the North, South and West.&#x000A;&#x000A;You can see launch pad here.&#x000A;&#x000A;&gt;</result>
@@ -23,24 +22,6 @@
   <item nodeId="node-3">
     <command xml:space="preserve">take rug</command>
     <result xml:space="preserve">the rug is taped to the ground except a little hole that your hand can fit through&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-4"/>
-    </children>
-  </item>
-  <item nodeId="node-4">
-    <command xml:space="preserve">poo</command>
-    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-5"/>
-    </children>
-  </item>
-  <item nodeId="node-5">
-    <command xml:space="preserve">do a wee</command>
-    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>

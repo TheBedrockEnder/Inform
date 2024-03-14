@@ -1,28 +1,28 @@
-! Blurb file created by Inform build 6M62
+! Blurb file created by Inform Inform 10.1.2 (build )
 
-status "C:\Program Files (x86)\Inform 7\Internal\Miscellany\CblorbModel.html" "C:\inform\mb_inform\Video Game Menace.inform\Build\StatusCblorb.html"
+status "C:\Program Files\Inform\Internal\HTML\CblorbModel.html" "C:\Users\ninte\Documents\Inform\Projects\Video Game Menace.inform\Build\StatusCblorb.html"
 
 
 ! Identification
 
-project folder "C:\inform\mb_inform\Video Game Menace.inform"
-release to "C:\inform\mb_inform\Video Game Menace.materials\Release"
+project folder "C:\Users\ninte\Documents\Inform\Projects\Video Game Menace.inform"
+release to "C:\Users\ninte\Documents\Inform\Projects\Video Game Menace.materials\Release"
 
 ! Blorb instructions
 
 storyfile leafname "Video Game Menace.gblorb"
-storyfile "C:\inform\mb_inform\Video Game Menace.inform\Build\output.ulx" include
-ifiction "C:\inform\mb_inform\Video Game Menace.inform\Metadata.iFiction" include
-cover "C:\Program Files (x86)\Inform 7\Internal\Miscellany\Cover.jpg"
-picture 1 "C:\Program Files (x86)\Inform 7\Internal\Miscellany\Cover.jpg"
-release file "C:\Program Files (x86)\Inform 7\Internal\Miscellany\Cover.jpg"
-release file "C:\Program Files (x86)\Inform 7\Internal\Miscellany\Small Cover.jpg"
+storyfile "C:\Users\ninte\Documents\Inform\Projects\Video Game Menace.inform\Build\output.ulx" include
+ifiction "C:\Users\ninte\Documents\Inform\Projects\Video Game Menace.inform\Metadata.iFiction" include
+cover "C:\Program Files\Inform\Internal\Miscellany\DefaultCover.jpg"
+picture 1 "C:\Program Files\Inform\Internal\Miscellany\DefaultCover.jpg"
+release file "C:\Program Files\Inform\Internal\Miscellany\DefaultCover.jpg"
+release file "C:\Program Files\Inform\Internal\Miscellany\Small Cover.jpg"
 
 ! Placeholder variables
 
 placeholder [IFID] = "55429815-2632-4003-9759-51D1B99ACAF0"
 placeholder [RELEASE] = "1"
-placeholder [YEAR] = "2018"
+placeholder [YEAR] = "2024"
 placeholder [TITLE] = "Video Game Menace"
 placeholder [AUTHOR] = "Martin Brown"
 placeholder [BLURB] = "A work of interactive fiction."
@@ -33,25 +33,27 @@ placeholder [BLURB] = "A work of interactive fiction."
 ! Website instructions
 
 placeholder [ENCODEDSTORYFILE] = "Video Game Menace.gblorb.js"
-template path "C:\inform\mb_inform\Video Game Menace.materials\Templates"
-template path "C:\Users\Ian\Documents\Inform\Templates"
-template path "C:\Program Files (x86)\Inform 7\Internal\Templates"
+template path "C:\Users\ninte\Documents\Inform\Projects\Video Game Menace.materials\Templates"
+template path "C:\Users\ninte\Documents\Inform\Projects\Video Game Menace.materials\Templates"
+template path "C:\Users\ninte\Documents\Inform\Templates"
+template path "C:\Program Files\Inform\Internal\Templates"
 placeholder [INTERPRETERSCRIPTS] = " "
 interpreter "Quixe" "g"
-base64 "C:\inform\mb_inform\Video Game Menace.inform\Build\output.ulx" to "C:\inform\mb_inform\Video Game Menace.materials\Release\interpreter\Video Game Menace.gblorb.js"
+base64 "C:\Users\ninte\Documents\Inform\Projects\Video Game Menace.inform\Build\output.ulx" to "C:\Users\ninte\Documents\Inform\Projects\Video Game Menace.materials\Release\interpreter\Video Game Menace.gblorb.js"
 
 ! Website instructions
 
-template path "C:\inform\mb_inform\Video Game Menace.materials\Templates"
-template path "C:\Users\Ian\Documents\Inform\Templates"
-template path "C:\Program Files (x86)\Inform 7\Internal\Templates"
+template path "C:\Users\ninte\Documents\Inform\Projects\Video Game Menace.materials\Templates"
+template path "C:\Users\ninte\Documents\Inform\Projects\Video Game Menace.materials\Templates"
+template path "C:\Users\ninte\Documents\Inform\Templates"
+template path "C:\Program Files\Inform\Internal\Templates"
 css
 website "Standard"
 status instruction ||&nbsp;<a href="source:story.ni#line3"><img border=0 src=inform:/doc_images/Reveal.png></a>||
-status alternative ||Using 'Release along with cover art', to provide something more distinctive than the default artwork above&nbsp;<a href=inform:/doc403.html><img border=0 src=inform:/doc_images/help.png></a>||
-status alternative ||Using 'Release along with a file of "Such-and-Such" called "whatever.pdf"', perhaps to add a manual, or a welcoming note&nbsp;<a href=inform:/doc401.html><img border=0 src=inform:/doc_images/help.png></a>||
-status alternative ||Using 'Release along with the source text'&nbsp;<a href=inform:/doc412.html><img border=0 src=inform:/doc_images/help.png></a>||
-status alternative ||Using 'Release along with a solution'&nbsp;<a href=inform:/doc411.html><img border=0 src=inform:/doc_images/help.png></a>||
-status alternative ||Using 'Release along with the library card'&nbsp;<a href=inform:/doc412.html><img border=0 src=inform:/doc_images/help.png></a>||
-status alternative ||Using 'Release along with the introductory booklet'&nbsp;<a href=inform:/doc404.html><img border=0 src=inform:/doc_images/help.png></a>||
-status alternative ||Using 'Release along with the introductory postcard'&nbsp;<a href=inform:/doc404.html><img border=0 src=inform:/doc_images/help.png></a>||
+status alternative ||Using 'Release along with cover art', to provide something more distinctive than the default artwork above&nbsp;<a href=inform:/doc401.html><img border=0 src=inform:/doc_images/help.png></a>||
+status alternative ||Using 'Release along with a file of "Such-and-Such" called "whatever.pdf"', perhaps to add a manual, or a welcoming note&nbsp;<a href=inform:/doc399.html><img border=0 src=inform:/doc_images/help.png></a>||
+status alternative ||Using 'Release along with the source text'&nbsp;<a href=inform:/doc410.html><img border=0 src=inform:/doc_images/help.png></a>||
+status alternative ||Using 'Release along with a solution'&nbsp;<a href=inform:/doc409.html><img border=0 src=inform:/doc_images/help.png></a>||
+status alternative ||Using 'Release along with the library card'&nbsp;<a href=inform:/doc410.html><img border=0 src=inform:/doc_images/help.png></a>||
+status alternative ||Using 'Release along with the introductory booklet'&nbsp;<a href=inform:/doc402.html><img border=0 src=inform:/doc_images/help.png></a>||
+status alternative ||Using 'Release along with the introductory postcard'&nbsp;<a href=inform:/doc402.html><img border=0 src=inform:/doc_images/help.png></a>||
