@@ -55850,13 +55850,28 @@ Global max_z_object;
         if (debug_rules) {
             DB_Rule(call_U1973, 802, 0);
         }
-        (score = (score + 10));
-        call_U1942(I_easter_egg_1_U1);
-        MoveObject(I_easter_egg_1_U1, player);
-        (say__p = 1);
-        ParaContent();
-        print "You found an Easter egg, well done!";
-        print "^";
+        if ((~~(call_U1941(I_easter_egg_1_U1)))) {
+            (score = (score + 10));
+            call_U1942(I_easter_egg_1_U1);
+            MoveObject(I_easter_egg_1_U1, player);
+            (say__p = 1);
+            ParaContent();
+            print "You found an Easter egg, well done!";
+            print "^";
+        } else {
+            if ((player == WearerOf(I_nose_cone_U1))) {
+                (say__p = 1);
+                ParaContent();
+                print "You are already wearing the nose cone.";
+                print "^";
+            } else {
+                WearObject(I_nose_cone_U1, player);
+                (say__p = 1);
+                ParaContent();
+                print "You put on the nose cone.";
+                print "^";
+            }
+        }
         rfalse;
         RulebookSucceeds(0, 0);
         rtrue;
@@ -55955,14 +55970,24 @@ Global max_z_object;
         if (debug_rules) {
             DB_Rule(call_U1978, 807, 0);
         }
-        (say__p = 1);
-        ParaContent();
-        print "You climb up the shelf and discover Easter egg 2!";
-        print "^";
-        call_U1942(I_easter_egg_2_U1);
-        MoveObject(I_easter_egg_2_U1, player);
-        (score = (score + 10));
-        call_U1942(I_easter_egg_2_U1);
+        if (call_U1941(I_easter_egg_2_U1)) {
+            (say__p = 1);
+            ParaContent();
+            print "You already looked and there is nothing interesting there.";
+            print "^";
+        } else {
+            (say__p = 1);
+            ParaContent();
+            print "You climb up the shelf and discover Easter egg 2!";
+            print "^";
+            call_U1942(I_easter_egg_2_U1);
+            MoveObject(I_easter_egg_2_U1, player);
+            (score = (score + 10));
+            (say__p = 1);
+            ParaContent();
+            print "You found another Easter egg while climbing the shelf!";
+            print "^";
+        }
         RulebookFails(0, 0);
         rtrue;
     } else {

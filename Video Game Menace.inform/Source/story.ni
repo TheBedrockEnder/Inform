@@ -35,10 +35,16 @@ Easter egg 1 is a thing. Easter egg 1 can be found. Easter egg 1 is not found.
 Easter egg 2 is a thing. Easter egg 2 can be found. Easter egg 2 is not found.
 
 After wearing the nose cone for the first time:
-	increase the score by 10;
-	now Easter egg 1 is found;
-	now player carries Easter egg 1;
-	say "You found an Easter egg, well done!";
+	if Easter egg 1 is not found:
+		increase the score by 10;
+		now Easter egg 1 is found;
+		now player carries Easter egg 1;
+		say "You found an Easter egg, well done!";
+	otherwise if the player is wearing the nose cone:
+		say "You are already wearing the nose cone.";
+	otherwise:
+		now the nose cone is worn by the player;
+		say "You put on the nose cone.";
 	continue the action.
 
 After putting the nose cone on the launch pad for the first time:
@@ -60,8 +66,11 @@ After putting the rocket body on the launch pad:
 		end the story saying "You click the rocket pieces together and escape! But maybe you should have remembered the extra fuel..."
 		
 Instead of climbing the shelf:
-	say "You climb up the shelf and discover Easter egg 2!";
-	now Easter egg 2 is found;
-	now player carries Easter egg 2;
-	increase the score by 10;
-	now Easter egg 2 is found.
+	if Easter egg 2 is found:
+		say "You already looked and there is nothing interesting there.";
+	otherwise:
+		say "You climb up the shelf and discover Easter egg 2!";
+		now Easter egg 2 is found;
+		now player carries Easter egg 2;
+		increase the score by 10;
+		say "You found another Easter egg while climbing the shelf!";
