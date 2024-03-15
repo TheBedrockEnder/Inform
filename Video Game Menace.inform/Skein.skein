@@ -1,46 +1,312 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<Skein rootNode="node-1">
-  <generator>Windows Inform 10.1.2</generator>
-  <item nodeId="node-1">
-    <command xml:space="preserve">Video Game Menace</command>
-    <result xml:space="preserve">Video Game Menace&#x000A;An Interactive Fiction by Martin Brown&#x000A;Release 1 / Serial number 180708 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD&#x000A;&#x000A;Rocket base&#x000A;The Rocket base is a big, circular room. There is a launch pad in the centre of the room. It looks like a rocket was once here but someone has taken it apart and hidden the pieces. There are exits to the North, South and West.&#x000A;&#x000A;You can see launch pad here.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve">Video Game Menace&#x000A;An Interactive Fiction by Martin Brown&#x000A;Release 1 / Serial number 180519 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD&#x000A;&#x000A;Rocket base&#x000A;The Rocket base is a big, circular room.&#x000A;&#x000A;There is a launch pad in the centre of the room. It looks like a rocket was once here but someone has taken it apart and hidden the pieces.&#x000A;&#x000A;&gt;</commentary>
-    <changed>YES</changed>
-    <children>
-      <child nodeId="node-2"/>
-    </children>
-  </item>
-  <item nodeId="node-2">
-    <command xml:space="preserve">s</command>
-    <result xml:space="preserve">bathroom&#x000A;A bathroom with a white rug.&#x000A;&#x000A;You can see a rug here.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve">bathroom&#x000A;A bathroom with a white rug.&#x000A;&#x000A;You can see a rug here.&#x000A;&#x000A;&gt;mohuj&#x000A;&#x000A;&#x000A;&#x000A;&#x000A;&#x000A;</commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-3"/>
-    </children>
-  </item>
-  <item nodeId="node-3">
-    <command xml:space="preserve">take rug</command>
-    <result xml:space="preserve">the rug is taped to the ground except a little hole that your hand can fit through&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-6"/>
-    </children>
-  </item>
-  <item nodeId="node-6">
-    <command xml:space="preserve">jump</command>
-    <result xml:space="preserve">You jump on the spot.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-7"/>
-    </children>
-  </item>
-  <item nodeId="node-7">
-    <command xml:space="preserve">walk</command>
-    <result xml:space="preserve">You'll have to say which compass direction to go in.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-  </item>
+<?xml version="1.0"?>
+
+<Skein rootNode="node-1002">
+    <generator>Inform Mac Client (Inform version 1.82/6.41/10.1.2)</generator>
+    <item nodeId="node-1002">
+        <command xml:space="preserve">Video Game Menace</command>
+        <result xml:space="preserve">
+
+
+
+Video Game Menace
+An Interactive Fiction by Martin Brown
+Release 1 / Serial number 240315 / Inform 7 v10.1.2 / D
+
+Rocket base
+The Rocket base is a big, circular room. There is a launch pad in the center of the room. It looks like a rocket was once here but someone has taken it apart and hidden the pieces. There are exits to the North, South, and West.
+
+You can see the launch pad here.
+
+&gt;</result>
+        <commentary xml:space="preserve">
+
+
+
+Video Game Menace
+An Interactive Fiction by Martin Brown
+Release 1 / Serial number 240315 / Inform 7 v10.1.2 / D
+
+Rocket base
+The Rocket base is a big, circular room. There is a launch pad in the center of the room. It looks like a rocket was once here but someone has taken it apart and hidden the pieces. There are exits to the North, South, and West.
+
+You can see the launch pad here.
+
+&gt;</commentary>
+        <children><child nodeId="node-1030"></child>
+            <child nodeId="node-1026"></child>
+            <child nodeId="node-1003"></child>
+        </children>
+    </item>
+    <item nodeId="node-1003">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+storage cupboard
+A small room used for storing things. There is a shelf against one wall.
+
+A nose cone of a rocket.
+
+You can see a shelf here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1024"></child>
+            <child nodeId="node-1021"></child>
+            <child nodeId="node-1019"></child>
+            <child nodeId="node-1015"></child>
+            <child nodeId="node-1008"></child>
+            <child nodeId="node-1004"></child>
+        </children>
+    </item>
+    <item nodeId="node-1004">
+        <command xml:space="preserve">take nose cone</command>
+        <result xml:space="preserve">Taken.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1005"></child>
+        </children>
+    </item>
+    <item nodeId="node-1005">
+        <command xml:space="preserve">put on nose cone</command>
+        <result xml:space="preserve">You put on the nose cone.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1006"></child>
+        </children>
+    </item>
+    <item nodeId="node-1006">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+Rocket base
+The Rocket base is a big, circular room. There is a launch pad in the centre of the room. It looks like a rocket was once here but someone has taken it apart and hidden the pieces. There are exits to the North, South and West.
+
+You can see launch pad here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1007"></child>
+        </children>
+    </item>
+    <item nodeId="node-1007">
+        <command xml:space="preserve">put nose cone on launch pad</command>
+        <result xml:space="preserve">(first taking it off)
+yes, that looks right!
+
+[Your score has just gone up by ten points.]
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1008">
+        <command xml:space="preserve">take all</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1010"></child>
+            <child nodeId="node-1009"></child>
+        </children>
+    </item>
+    <item nodeId="node-1009">
+        <command xml:space="preserve">wear nose cone</command>
+        <result xml:space="preserve">You can't wear that!
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1010">
+        <command xml:space="preserve">put on nose cone</command>
+        <result xml:space="preserve">you found a easter egg, well done!
+
+You put on the nose cone.
+
+[Your score has just gone up by ten points.]
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1011"></child>
+        </children>
+    </item>
+    <item nodeId="node-1011">
+        <command xml:space="preserve">i</command>
+        <result xml:space="preserve">You are carrying:
+  a nose cone (being worn)
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1012"></child>
+        </children>
+    </item>
+    <item nodeId="node-1012">
+        <command xml:space="preserve">i</command>
+        <result xml:space="preserve">You are carrying:
+  a nose cone (being worn)
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1013"></child>
+        </children>
+    </item>
+    <item nodeId="node-1013">
+        <command xml:space="preserve">easter egg 1</command>
+        <result xml:space="preserve">That's not a verb I recognise.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1014"></child>
+        </children>
+    </item>
+    <item nodeId="node-1014">
+        <command xml:space="preserve">put Easter egg 1 on shelf</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1015">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1017"></child>
+            <child nodeId="node-1016"></child>
+        </children>
+    </item>
+    <item nodeId="node-1016">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+Rocket base
+The Rocket base is a big, circular room. There is a launch pad in the centre of the room. It looks like a rocket was once here but someone has taken it apart and hidden the pieces. There are exits to the North, South and West.
+
+You can see launch pad here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1017">
+        <command xml:space="preserve">climb shelf</command>
+        <result xml:space="preserve">Little is to be achieved by that.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1018"></child>
+        </children>
+    </item>
+    <item nodeId="node-1018">
+        <command xml:space="preserve">climb shelf</command>
+        <result xml:space="preserve">Little is to be achieved by that.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1019">
+        <command xml:space="preserve">look at shelf</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1020"></child>
+        </children>
+    </item>
+    <item nodeId="node-1020">
+        <command xml:space="preserve">take all</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1021">
+        <command xml:space="preserve">l</command>
+        <result xml:space="preserve">storage cupboard
+A small room used for storing things. There is a shelf against one wall.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1022"></child>
+        </children>
+    </item>
+    <item nodeId="node-1022">
+        <command xml:space="preserve">take rocket cone</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1023"></child>
+        </children>
+    </item>
+    <item nodeId="node-1023">
+        <command xml:space="preserve">take nose cone</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1024">
+        <command xml:space="preserve">climb shelf</command>
+        <result xml:space="preserve">You climb up the shelf and discover Easter egg 2!
+
+[Your score has just gone up by ten points.]
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1025"></child>
+        </children>
+    </item>
+    <item nodeId="node-1025">
+        <command xml:space="preserve">i</command>
+        <result xml:space="preserve">You are carrying:
+  Easter egg 2
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1026">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1027"></child>
+        </children>
+    </item>
+    <item nodeId="node-1027">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+store cupbard
+A small room used for storing things. There is a shelf against one wall.
+
+A nose cone of a rocket.
+
+You can see a shelf here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1028"></child>
+        </children>
+    </item>
+    <item nodeId="node-1028">
+        <command xml:space="preserve">take nose cone</command>
+        <result xml:space="preserve">Taken.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1029"></child>
+        </children>
+    </item>
+    <item nodeId="node-1029">
+        <command xml:space="preserve">wear nose cone</command>
+        <result xml:space="preserve">You put on the nose cone.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1030">
+        <command xml:space="preserve"></command>
+        <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
 </Skein>

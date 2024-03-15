@@ -1,13 +1,13 @@
 Debugging log of inform7
-inform7 was called as: C:\Program Files\Inform\Compilers\inform7 -release -internal C:\Program Files\Inform\Internal -external C:\Users\ninte\Documents\Inform -project C:\Users\ninte\Documents\Inform\Projects\Video Game Menace.inform -format=Inform6/32
+inform7 was called as: /Applications/Inform.app/Contents/MacOS/ni -internal /Applications/Inform.app/Contents/Resources/Internal -external /Users/martin/Library/Inform -project /Users/martin/Code/Inform/Video Game Menace.inform -format=ulx -release
 Reading further switches from file: <no file>
 Completed expert settings file
 Using Inform kit 'BasicInformKit' (priority 0).
 Using Inform kit 'EnglishLanguageKit' (priority 1).
 Using Inform kit 'WorldModelKit' (priority 2).
 Using Inform kit 'CommandParserKit' (priority 3).
-756 Preform nonterminals read from C:\Program Files\Inform\Internal\Languages\English\Syntax.preform
-I've now read your source text, which is 399 words long.
+756 Preform nonterminals read from /Applications/Inform.app/Contents/Resources/Internal/Languages/English/Syntax.preform
+I've now read your source text, which is 549 words long.
 Included: core, naming, instance counting, interactive fiction, spatial model, backdrops, bibliographic data, chronology, devices, mapping, persons, player, regions, scenes, scoring, timed rules, times of day, actions, going, command, showme, multimedia, figures, sounds, glulx external files
 Excluded: 
 I've also read Basic Inform by Graham Nelson, which is 7691 words long.
@@ -25,31 +25,31 @@ Phase I ... Dividing source into compilation units
 Phase II ... Making built in infrastructure
 -----------------------------------------------------
 
-Loading kinds definitions from C:\Program Files\Inform\Internal\Inter\BasicInformKit\kinds\Macros.neptune
-Loading kinds definitions from C:\Program Files\Inform\Internal\Inter\BasicInformKit\kinds\Protocols.neptune
-Loading kinds definitions from C:\Program Files\Inform\Internal\Inter\BasicInformKit\kinds\Core.neptune
-Loading kinds definitions from C:\Program Files\Inform\Internal\Inter\BasicInformKit\kinds\Punctuation.neptune
-Loading kinds definitions from C:\Program Files\Inform\Internal\Inter\BasicInformKit\kinds\Files.neptune
-Loading kinds definitions from C:\Program Files\Inform\Internal\Inter\WorldModelKit\kinds\Actions.neptune
-Loading kinds definitions from C:\Program Files\Inform\Internal\Inter\WorldModelKit\kinds\Times.neptune
-Loading kinds definitions from C:\Program Files\Inform\Internal\Inter\WorldModelKit\kinds\Scenes.neptune
-Loading kinds definitions from C:\Program Files\Inform\Internal\Inter\WorldModelKit\kinds\Figures.neptune
-Loading kinds definitions from C:\Program Files\Inform\Internal\Inter\WorldModelKit\kinds\Sounds.neptune
-Loading kinds definitions from C:\Program Files\Inform\Internal\Inter\CommandParserKit\kinds\Parsing.neptune
+Loading kinds definitions from /Applications/Inform.app/Contents/Resources/Internal/Inter/BasicInformKit/kinds/Macros.neptune
+Loading kinds definitions from /Applications/Inform.app/Contents/Resources/Internal/Inter/BasicInformKit/kinds/Protocols.neptune
+Loading kinds definitions from /Applications/Inform.app/Contents/Resources/Internal/Inter/BasicInformKit/kinds/Core.neptune
+Loading kinds definitions from /Applications/Inform.app/Contents/Resources/Internal/Inter/BasicInformKit/kinds/Punctuation.neptune
+Loading kinds definitions from /Applications/Inform.app/Contents/Resources/Internal/Inter/BasicInformKit/kinds/Files.neptune
+Loading kinds definitions from /Applications/Inform.app/Contents/Resources/Internal/Inter/WorldModelKit/kinds/Actions.neptune
+Loading kinds definitions from /Applications/Inform.app/Contents/Resources/Internal/Inter/WorldModelKit/kinds/Times.neptune
+Loading kinds definitions from /Applications/Inform.app/Contents/Resources/Internal/Inter/WorldModelKit/kinds/Scenes.neptune
+Loading kinds definitions from /Applications/Inform.app/Contents/Resources/Internal/Inter/WorldModelKit/kinds/Figures.neptune
+Loading kinds definitions from /Applications/Inform.app/Contents/Resources/Internal/Inter/WorldModelKit/kinds/Sounds.neptune
+Loading kinds definitions from /Applications/Inform.app/Contents/Resources/Internal/Inter/CommandParserKit/kinds/Parsing.neptune
 
 
 -----------------------------------------------------
 Phase III ... Pre-pass through major nodes
 -----------------------------------------------------
 
-.... MajorNodes__pre_pass() took 8cs
+.... MajorNodes__pre_pass() took 10cs
 
 
 -----------------------------------------------------
 Phase IV ... First pass through major nodes
 -----------------------------------------------------
 
-.... MajorNodes__pass_1() took 4cs
+.... MajorNodes__pass_1() took 7cs
 
 
 -----------------------------------------------------
@@ -101,7 +101,6 @@ Phase XI ... Generating inter (1)
 Phase XII ... Generating inter (2)
 -----------------------------------------------------
 
-.... InferenceSubjects__emit_all() took 2cs
 
 
 ==== Phase XII.1 ... Slashing command grammar ====
@@ -116,9 +115,9 @@ Phase XII ... Generating inter (2)
 Phase XIII ... Generating inter (3)
 -----------------------------------------------------
 
-.... Sequence__undertake_queued_tasks() took 145cs
+.... Sequence__undertake_queued_tasks() took 84cs
 .... Sequence__undertake_queued_tasks() took 1cs
-.... RTPhrasebook__compile_entries() took 3cs
+.... RTPhrasebook__compile_entries() took 5cs
 
 
 -----------------------------------------------------
@@ -154,7 +153,7 @@ Phase XVI ... Bibliographic work
 Phase XVII ... Complete
 -----------------------------------------------------
 
-Compile CPU time: 184 centiseconds
+Compile CPU time: 127 centiseconds
 
 
 ==== Phase XVII.1 ... step 1/15: read <- *memory ====
@@ -199,12 +198,12 @@ Compile CPU time: 184 centiseconds
 
 ==== Phase XVII.11 ... step 11/15: eliminate-redundant-labels ====
 
-1745 redundant label(s) removed
+1749 redundant label(s) removed
 
 
 ==== Phase XVII.12 ... step 12/15: eliminate-redundant-operations ====
 
-375 redundant operation(s) removed
+379 redundant operation(s) removed
 
 
 ==== Phase XVII.13 ... step 13/15: optionally-generate text ->  ====
@@ -220,32 +219,32 @@ Compile CPU time: 184 centiseconds
 Trying to close p at line 324 of 'services/html-module/Chapter 2/Documentation Renderer.w', but:
 Tag error: closed HTML tag which wasn't open
 HTML tag stack:
-    1. body (opened at line 370 of 'D:/Programs/Adv/Inform7/Distribution/inweb/foundation-module/Chapter 5/HTML.w')
-    2. html (opened at line 236 of 'D:/Programs/Adv/Inform7/Distribution/inweb/foundation-module/Chapter 5/HTML.w')
+    1. body (opened at line 370 of '/Users/tobynelson/Code/Inform Core/inweb/foundation-module/Chapter 5/HTML.w')
+    2. html (opened at line 236 of '/Users/tobynelson/Code/Inform Core/inweb/foundation-module/Chapter 5/HTML.w')
 
 
-Trying to close body at line 374 of 'D:/Programs/Adv/Inform7/Distribution/inweb/foundation-module/Chapter 5/HTML.w', but:
+Trying to close body at line 374 of '/Users/tobynelson/Code/Inform Core/inweb/foundation-module/Chapter 5/HTML.w', but:
 Tag error: closed HTML tag which wasn't open
 HTML tag stack:
     1. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
-    2. html (opened at line 236 of 'D:/Programs/Adv/Inform7/Distribution/inweb/foundation-module/Chapter 5/HTML.w')
+    2. html (opened at line 236 of '/Users/tobynelson/Code/Inform Core/inweb/foundation-module/Chapter 5/HTML.w')
 
 
 Trying to close p at line 324 of 'services/html-module/Chapter 2/Documentation Renderer.w', but:
 Tag error: closed HTML tag which wasn't open
 HTML tag stack:
-    1. body (opened at line 370 of 'D:/Programs/Adv/Inform7/Distribution/inweb/foundation-module/Chapter 5/HTML.w')
-    2. html (opened at line 236 of 'D:/Programs/Adv/Inform7/Distribution/inweb/foundation-module/Chapter 5/HTML.w')
+    1. body (opened at line 370 of '/Users/tobynelson/Code/Inform Core/inweb/foundation-module/Chapter 5/HTML.w')
+    2. html (opened at line 236 of '/Users/tobynelson/Code/Inform Core/inweb/foundation-module/Chapter 5/HTML.w')
 
 
-Trying to close body at line 374 of 'D:/Programs/Adv/Inform7/Distribution/inweb/foundation-module/Chapter 5/HTML.w', but:
+Trying to close body at line 374 of '/Users/tobynelson/Code/Inform Core/inweb/foundation-module/Chapter 5/HTML.w', but:
 Tag error: closed HTML tag which wasn't open
 HTML tag stack:
     1. p (opened at line 327 of 'services/html-module/Chapter 2/Documentation Renderer.w')
-    2. html (opened at line 236 of 'D:/Programs/Adv/Inform7/Distribution/inweb/foundation-module/Chapter 5/HTML.w')
+    2. html (opened at line 236 of '/Users/tobynelson/Code/Inform Core/inweb/foundation-module/Chapter 5/HTML.w')
 
 
-Back end elapsed time: 115cs
+Back end elapsed time: 91cs
 Total of 97 files written as streams.
 Vacant escapes: %: ..CDE.GH..K.M.O.QR.TU...YZab..e..h.jklm.o.qr......yz0123456789
 Vacant escapes: $: .....F...J..........UVW.....................s.u..x.........789
