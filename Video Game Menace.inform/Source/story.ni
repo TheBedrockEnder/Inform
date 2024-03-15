@@ -42,10 +42,10 @@ After putting the rocket body on the launch pad for the first time:
 		
 After putting the nose cone on the launch pad:
 	if the rocket body is on the launch pad:
-		end the story saying "you click the rocket pieces together and use it to escape!"
+		end the story saying "you click the rocket pieces together and use it to escape! But mabye you should have remebered the extra fuel..."
 		
 After putting the rocket body on the launch pad:
 	if the nose cone is on the launch pad:
-		end the story saying "you click rocket pices together and escape!"
+		end the story saying "you click rocket pices together and escape! But mabye you should have remebered the extra fuel..."
 		
 	
