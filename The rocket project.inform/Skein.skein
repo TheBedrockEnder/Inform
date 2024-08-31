@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Skein rootNode="node-0x5632d5392190" xmlns="http://www.logicalshift.org.uk/IF/Skein">
+  <generator>Inform 7</generator>
+  <activeNode nodeId="node-0x5632d58e07a0"/>
+  <item nodeId="node-0x5632d5392190">
+    <command xml:space="preserve">- start -</command>
+    <result xml:space="preserve">
+
+
+
+Video Game Menace
+An Interactive Fiction by Martin Brown
+Release 1 / Serial number 240831 / Inform 7 v10.1.2 / D
+
+Rocket base
+The Rocket base is a big, circular room. There is a launch pad in the center of the room. It looks like a rocket was once here but someone has taken it apart and hidden the pieces. There are exits to the North, South, and West.
+
+You can see the launch pad here.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x5632d58e07a0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x5632d58e07a0">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+control room
+You can see a big television here.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+</Skein>
